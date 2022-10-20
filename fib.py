@@ -12,6 +12,5 @@ def fib_pos(n) :
         a = b
         b = c       
     return pos
-
-result = fib_pos(1)
-print(result)
+n=fib_pos(int(input("Enter num:")))
+print(n)
